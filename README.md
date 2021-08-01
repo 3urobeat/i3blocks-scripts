@@ -35,3 +35,6 @@ Gets the amount of available package updates (+AUR).
 Click the block to see which packages can be updated (notification).  
   
 Disclaimer: Needs 'checkupdates+aur' package from the AUR to work.  
+
+### volume
+Shows the current master volume from amixer. Scroll up/down to change volume. Middle click to mute.  
