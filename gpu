@@ -26,10 +26,10 @@ else: loadwarn = str(sys.argv[sys.argv.index("-lwarn") + 1])
 if "-lwarn" not in sys.argv: loadcrit = "9999"
 else: loadcrit = str(sys.argv[sys.argv.index("-lcrit") + 1])
 
-if "-lwarn" not in sys.argv: tempwarn = "9999"
+if "-twarn" not in sys.argv: tempwarn = "9999"
 else: tempwarn = str(sys.argv[sys.argv.index("-twarn") + 1])
 
-if "-lwarn" not in sys.argv: tempcrit = "9999"
+if "-tcrit" not in sys.argv: tempcrit = "9999"
 else: tempcrit = str(sys.argv[sys.argv.index("-tcrit") + 1])
 
 # get load and temperature from 'nvidia-settings'
